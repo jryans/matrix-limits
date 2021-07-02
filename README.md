@@ -26,8 +26,9 @@ spec](https://spec.matrix.org/unstable/client-server-api/#size-limit) itself.
 
 - Events table [used to use a 32-bit stream ordering
   ID](https://github.com/matrix-org/synapse/issues/8255), limiting a server to a
-  total of 2^31 (2,147,483,648) events across all known rooms (develop has
-  changed to `bigint`, so the limit will soon become 2^63)
+  total of 2^31 (2,147,483,648) events across all known rooms (develop [has
+  changed](https://github.com/matrix-org/synapse/pull/10264) to `bigint`, so the
+  limit will soon become 2^63)
 
 ### Dendrite
 
