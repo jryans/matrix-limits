@@ -30,3 +30,14 @@ spec](https://spec.matrix.org/unstable/client-server-api/#size-limit) itself.
   changed to `bigint`, so the limit will soon become 2^63)
 
 ### Dendrite
+
+---
+
+## Contribute
+
+Contributions welcome! 😄 Read the [contribution guidelines](CONTRIBUTING.md)
+first.
+
+## License
+
+Creative Commons Attribution 4.0 International
