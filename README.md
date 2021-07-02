@@ -6,6 +6,8 @@ specification and implementations.
 ## Contents
 
 - [Specification](#specification)
+  - [Events](#events)
+  - [Identifiers](#identifiers)
 - [Servers](#servers)
   - [Synapse](#synapse)
   - [Dendrite](#dendrite)
@@ -13,6 +15,8 @@ specification and implementations.
 ---
 
 ## Specification
+
+### Events
 
 The content has been adapted from [the
 spec](https://spec.matrix.org/unstable/client-server-api/#size-limit) itself.
@@ -24,6 +28,14 @@ spec](https://spec.matrix.org/unstable/client-server-api/#size-limit) itself.
 - `state_key` must not exceed 255 bytes
 - `type` must not exceed 255 bytes
 - `event_id` must not exceed 255 bytes
+
+### Identifiers
+
+- [User ID
+  localparts](https://spec.matrix.org/unstable/appendices/#user-identifiers) are
+  limited to `[a-z0-9-.=_/]+` in the spec, but historical user IDs can contain
+  any printable ASCII except spaces and federation allows arbitrary unicode
+  including unprintable ASCII
 
 ## Servers
 
