@@ -5,6 +5,11 @@ specification and implementations.
 
 ## Contents
 
+- [Specification](#specification)
+- [Servers](#servers)
+  - [Synapse](#synapse)
+  - [Dendrite](#dendrite)
+
 ---
 
 ## Specification
